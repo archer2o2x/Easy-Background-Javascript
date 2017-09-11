@@ -5,7 +5,7 @@ image.setAttribute('src', link);
 image.setAttribute('style', 'width:' + window.innerWidth +'px;height:' + window.innerHeight +'px');
 document.body.appendChild(image);
 document.addEventListener("keydown", function(e) {
-  if (e.keyCode == 122) {
+  if (e.keyCode == 13) {
     image.setAttribute('style', 'width:' + window.innerWidth +'px;height:' + window.innerHeight +'px');
   }
 }, false);
